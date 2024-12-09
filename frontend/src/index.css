@@ -24,6 +24,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
 }
 
 html {
@@ -32,6 +33,11 @@ html {
 
 body {
   font-family: var(--font-family);
+  background-image: url(https://th.bing.com/th/id/OIP.hn7q8Z240QDaOJLZ7O-SVwHaFj?rs=1&pid=ImgDetMain);
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
 }
 
 section {
@@ -43,6 +49,7 @@ section {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
+  justify-content: center;
 }
 
 /* UTILITY CLASSES */
